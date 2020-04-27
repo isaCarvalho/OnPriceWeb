@@ -1,0 +1,44 @@
+.background-nav{
+    background-color: #6200ee;
+    box-shadow: 0px 1px 5px 1px rgba(150,150,150,0.75);
+}
+
+.background-nav a {
+    color: #ffffff;
+}
+
+.background-nav a:hover {
+    color: #e5e5e5;
+}
+
+.btn-primary {
+    background-color: #9e47ff !important;
+    border-color: #9e47ff !important;
+    color: #ffffff;
+}
+
+.btn-light {
+    background-color: #ffffff !important;
+    color: #9e47ff !important;
+}
+
+.cards {
+    display: flex;
+    width: 100%;
+    alignment: center;
+}
+
+.card {
+    margin: 20px 10px;
+}
+
+img {
+    height: 200px;
+}
+
+.form
+{
+    width: 550px;
+    margin: 0 auto;
+    padding: 20px;
+}
