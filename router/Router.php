@@ -11,11 +11,16 @@ class Router
         switch ($route)
         {
             case '':
+                $this->redirect('home');
+                break;
+
             case 'home':
             case 'onpriceweb':
             case 'login':
             case 'help':
             case 'createAccount':
+            case 'createProduct':
+            case 'listStores':
                 $this->redirect($route);
                 break;
 
