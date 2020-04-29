@@ -1,85 +1,87 @@
-<div class="form">
-    <form>
-        <div class="form-group">
-            <label for="userName">Nome de usuário</label>
-            <input type="text" class="form-control" id="userName" aria-describedby="nameHelp">
-            <small id="nameHelp" class="form-text text-muted">Nome do estabelecimento</small>
-        </div>
-        <div class="form-group">
-            <label for="passwordExample">Senha</label>
-            <input type="password" class="form-control" id="passwordExample" maxlength="16">
-        </div>
-        <div class="form-group">
-            <label for="cnpj">CNPJ</label>
-            <input type="text" class="form-control" id="cnpj" aria-describedby="cnpjHelp">
-            <small id="cnpjHelp" class="form-text text-muted">CNPJ do estabelecimento</small>
-        </div>
-        <div class="form-group">
-            <label for="street">Rua</label>
-            <input type="text" class="form-control" id="street" aria-describedby="streetHelp">
-            <small id="streetHelp" class="form-text text-muted">Logradouro</small>
-        </div>
-        <div style="display: flex;">
-            <div class="form-group">
-                <label for="number">Número</label>
-                <input type="number" class="form-control" id="number" aria-describedby="numberHelp" style="width: 50%">
-                <small id="numberHelp" class="form-text text-muted">Número</small>
-            </div>
+<body>
 
+    <div class="form">
+        <form>
             <div class="form-group">
-                <label for="bairro">Bairro</label>
-                <input type="bairro" class="form-control" id="bairro" aria-describedby="bairroHelp"/>
-                <small id="bairroHelp" class="form-text text-muted">Bairro</small>
+                <label for="userName">Nome de usuário</label>
+                <input type="text" class="form-control" id="userName" aria-describedby="nameHelp">
+                <small id="nameHelp" class="form-text text-muted">Nome do estabelecimento</small>
             </div>
-        </div>
-        <div class="form-group">
-            <label for="city">Cidade</label>
-            <input type="text" class="form-control" id="city" aria-describedby="cityHelp">
-            <small id="cityHelp" class="form-text text-muted">Cidade</small>
-        </div>
+            <div class="form-group">
+                <label for="passwordExample">Senha</label>
+                <input type="password" class="form-control" id="passwordExample" maxlength="16">
+            </div>
+            <div class="form-group">
+                <label for="cnpj">CNPJ</label>
+                <input type="text" class="form-control" id="cnpj" aria-describedby="cnpjHelp">
+                <small id="cnpjHelp" class="form-text text-muted">CNPJ do estabelecimento</small>
+            </div>
+            <div class="form-group">
+                <label for="street">Rua</label>
+                <input type="text" class="form-control" id="street" aria-describedby="streetHelp">
+                <small id="streetHelp" class="form-text text-muted">Logradouro</small>
+            </div>
+            <div style="display: flex;">
+                <div class="form-group">
+                    <label for="number">Número</label>
+                    <input type="number" class="form-control" id="number" aria-describedby="numberHelp" style="width: 50%">
+                    <small id="numberHelp" class="form-text text-muted">Número</small>
+                </div>
 
-        <div style="display: flex;">
-            <div class="dropdown" style="padding-right: 20px;">
-                <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    UF
-                </button>
-                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                    <a class="dropdown-item" href="#">AC</a>
-                    <a class="dropdown-item" href="#">AL</a>
-                    <a class="dropdown-item" href="#">AM</a>
-                    <a class="dropdown-item" href="#">AP</a>
-                    <a class="dropdown-item" href="#">BA</a>
-                    <a class="dropdown-item" href="#">CE</a>
-                    <a class="dropdown-item" href="#">DF</a>
-                    <a class="dropdown-item" href="#">ES</a>
-                    <a class="dropdown-item" href="#">GO</a>
-                    <a class="dropdown-item" href="#">MA</a>
-                    <a class="dropdown-item" href="#">MT</a>
-                    <a class="dropdown-item" href="#">MS</a>
-                    <a class="dropdown-item" href="#">MG</a>
-                    <a class="dropdown-item" href="#">PA</a>
-                    <a class="dropdown-item" href="#">PB</a>
-                    <a class="dropdown-item" href="#">PR</a>
-                    <a class="dropdown-item" href="#">PE</a>
-                    <a class="dropdown-item" href="#">PI</a>
-                    <a class="dropdown-item" href="#">RJ</a>
-                    <a class="dropdown-item" href="#">RN</a>
-                    <a class="dropdown-item" href="#">RS</a>
-                    <a class="dropdown-item" href="#">RO</a>
-                    <a class="dropdown-item" href="#">RR</a>
-                    <a class="dropdown-item" href="#">SC</a>
-                    <a class="dropdown-item" href="#">SP</a>
-                    <a class="dropdown-item" href="#">SE</a>
-                    <a class="dropdown-item" href="#">TO</a>
+                <div class="form-group">
+                    <label for="bairro">Bairro</label>
+                    <input type="bairro" class="form-control" id="bairro" aria-describedby="bairroHelp"/>
+                    <small id="bairroHelp" class="form-text text-muted">Bairro</small>
                 </div>
             </div>
-
             <div class="form-group">
-                <label for="time">Horário</label>
-                <input type="time" class="form-control" id="time" aria-describedby="timeHelp" style="width: 100px;">
-                <small id="timeHelp" class="form-text text-muted">Aberto até</small>
+                <label for="city">Cidade</label>
+                <input type="text" class="form-control" id="city" aria-describedby="cityHelp">
+                <small id="cityHelp" class="form-text text-muted">Cidade</small>
             </div>
-        </div>
-        <button type="submit" class="btn btn-primary" style="width: 100%">Salvar</button>
-    </form>
-</div>
+
+            <div style="display: flex;">
+                <div class="dropdown" style="padding-right: 20px;">
+                    <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        UF
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <a class="dropdown-item" href="#">AC</a>
+                        <a class="dropdown-item" href="#">AL</a>
+                        <a class="dropdown-item" href="#">AM</a>
+                        <a class="dropdown-item" href="#">AP</a>
+                        <a class="dropdown-item" href="#">BA</a>
+                        <a class="dropdown-item" href="#">CE</a>
+                        <a class="dropdown-item" href="#">DF</a>
+                        <a class="dropdown-item" href="#">ES</a>
+                        <a class="dropdown-item" href="#">GO</a>
+                        <a class="dropdown-item" href="#">MA</a>
+                        <a class="dropdown-item" href="#">MT</a>
+                        <a class="dropdown-item" href="#">MS</a>
+                        <a class="dropdown-item" href="#">MG</a>
+                        <a class="dropdown-item" href="#">PA</a>
+                        <a class="dropdown-item" href="#">PB</a>
+                        <a class="dropdown-item" href="#">PR</a>
+                        <a class="dropdown-item" href="#">PE</a>
+                        <a class="dropdown-item" href="#">PI</a>
+                        <a class="dropdown-item" href="#">RJ</a>
+                        <a class="dropdown-item" href="#">RN</a>
+                        <a class="dropdown-item" href="#">RS</a>
+                        <a class="dropdown-item" href="#">RO</a>
+                        <a class="dropdown-item" href="#">RR</a>
+                        <a class="dropdown-item" href="#">SC</a>
+                        <a class="dropdown-item" href="#">SP</a>
+                        <a class="dropdown-item" href="#">SE</a>
+                        <a class="dropdown-item" href="#">TO</a>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="time">Horário</label>
+                    <input type="time" class="form-control" id="time" aria-describedby="timeHelp" style="width: 100px;">
+                    <small id="timeHelp" class="form-text text-muted">Aberto até</small>
+                </div>
+            </div>
+            <button type="submit" class="btn btn-primary" style="width: 100%">Salvar</button>
+        </form>
+    </div>

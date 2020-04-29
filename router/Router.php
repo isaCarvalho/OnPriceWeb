@@ -21,6 +21,7 @@ class Router
             case 'createAccount':
             case 'createProduct':
             case 'listStores':
+            case 'listProducts':
                 $this->redirect($route);
                 break;
 

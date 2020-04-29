@@ -1,14 +1,16 @@
-<div class="form">
-    <form>
-        <div class="form-group">
-            <label for="userName">Nome de usuário</label>
-            <input type="text" class="form-control" id="userName" aria-describedby="nameHelp">
-            <small id="nameHelp" class="form-text text-muted">Nome do estabelecimento</small>
-        </div>
-        <div class="form-group">
-            <label for="passwordExample">Senha</label>
-            <input type="password" class="form-control" id="passwordExample">
-        </div>
-        <button type="submit" class="btn btn-primary" style="width: 100%">Entrar</button>
-    </form>
-</div>
+<body>
+
+    <div class="form">
+        <form onsubmit="login()">
+            <div class="form-group">
+                <label for="name">Nome de usuário</label>
+                <input type="text" class="form-control" id="name" aria-describedby="nameHelp">
+                <small id="nameHelp" class="form-text text-muted">Nome do estabelecimento</small>
+            </div>
+            <div class="form-group">
+                <label for="password">Senha</label>
+                <input type="password" class="form-control" id="password">
+            </div>
+            <button type="submit" class="btn btn-primary" style="width: 100%">Entrar</button>
+        </form>
+    </div>
